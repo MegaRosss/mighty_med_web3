@@ -14,6 +14,7 @@ const CanvasModel = () => {
       className="w-full max-w-full h-full transition-all ease-in"
     >
       <ambientLight intensity={0.5} />
+      {/* this is what is causing the bug */}
       {/* <Environment preset="city" /> */}
 
       <CameraRig>
