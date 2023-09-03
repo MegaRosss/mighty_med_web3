@@ -15,6 +15,7 @@ const CanvasModel = () => {
     >
       <ambientLight intensity={0.5} />
       {/* this is what is causing the bug */}
+      {/* no y */}
       {/* <Environment preset="city" /> */}
 
       <CameraRig>
